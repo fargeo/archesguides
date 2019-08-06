@@ -10,4 +10,5 @@ defaults:
     values:
       author_profile: false
 ---
-# Application Settings 
+# Application Settings
+You can customize the application settings of your project to create an ideal environment for your users.
