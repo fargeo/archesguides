@@ -1,0 +1,98 @@
+# main links
+main:
+  - title: "User Guide"
+    url: /user/
+  - title: "Admin Guide"
+    url: /admin/
+  - title: "Data Modeler Guide"
+    url: /modeler/
+  - title: "Support"
+    url: /support/
+
+user docs:
+  - title: Overview
+    children:
+      - title: Introduction
+        url: /user/
+
+  - title: Getting Started
+    children:
+      - title: "Logging In"
+        url: /user-docs/logging-in/
+      - title: "Searching Arches"
+        url: /user-docs/searching/
+
+  - title: Customization
+    children:
+      - title: "Creating a New Record"
+        url: /user-docs/new-record/
+      - title: "Editing an existing record"
+        url: /user-docs/existing-record/
+      - title: "Navigation"
+        url: /user-docs/navigation/
+      - title: "Using Workflows"
+        url: /user-docs/workflows/
+
+admin docs:
+  - title: Overview
+    children:
+      - title: Introduction
+        url: /admin/
+
+  - title: Getting Started
+    children:
+      - title: "Installing Arches"
+        url: /admin-docs/installing/
+
+  - title: Configuring Apps
+    children:
+      - title: "System Configuration"
+        url: /admin-docs/configuration/
+      - title: "Groups and Users"
+        url: /admin-docs/groups-users/
+      - title: "Application Settings"
+        url: /admin-docs/app-settings/
+
+  - title: Map Services
+    children:
+      - title: "Configuring Models"
+        url: /admin-docs/models/
+      - title: "Basemaps"
+        url: /admin-docs/basemaps/
+      - title: "Overlays"
+        url: /admin-docs/overlays
+      - title: "Offline Maps"
+        url: /admin-docs/offline-maps/
+
+  - title: RDM
+    children:
+      - title: "Thesauri"
+        url: /admin-docs/thesauri/
+      - title: "Collections"
+        url: /admin-docs/collections/
+
+  - title: Arches Collector Manager
+    children:
+      - title: "Managing Arches Collector"
+        url: /admin-docs/collector/
+
+modeler docs:
+  - title: Overview
+    children:
+      - title: Introduction
+        url: /modeler/
+
+  - title: Customization
+    children:
+      - title: "Designing an Arches Database"
+        url: /modeler-docs/database/
+      - title: "Designing a Graph"
+        url: /modeler-docs/graph/
+      - title: "Configuring Cards"
+        url: /modeler-docs/cards/
+      - title: "Defining Model Permissions"
+        url: /modeler-docs/permissions/
+      - title: Reference Data Manager (RDM)
+        url: /modeler-docs/rdm/
+      - title: Arches Collector
+        url: /modeler-docs/collector/
