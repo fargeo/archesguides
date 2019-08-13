@@ -1,5 +1,6 @@
 ---
 permalink: /modeler/
+title: Welcome to the Modeler Guide!
 layout: single
 toc: true
 toc_label: "Table of Contents"
