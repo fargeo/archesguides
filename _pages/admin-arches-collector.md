@@ -1,6 +1,7 @@
 ---
 permalink: /admin-docs/collector/
 layout: single
+title: Managing Arches Collector
 sidebar:
   nav: "admin docs"
 defaults:
@@ -10,4 +11,4 @@ defaults:
     values:
       author_profile: false
 ---
-# Managing Arches Collector 
+
