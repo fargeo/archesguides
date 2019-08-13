@@ -20,6 +20,7 @@ defaults:
 ## By concept
 ## By area
 ## By time
+## Advanced Search
 
 # Viewing Results
 ## Selecting resources

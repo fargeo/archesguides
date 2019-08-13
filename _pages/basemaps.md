@@ -10,4 +10,5 @@ defaults:
     values:
       author_profile: false
 ---
-# Basemaps 
+# Basemaps
+Arches installs with a few default basemaps that you can choose for your project, or you can add your own basemaps through the command line. One basemap will always be applied to your project's map along with any number of overlays.
