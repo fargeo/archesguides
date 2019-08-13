@@ -1,7 +1,7 @@
 ---
 permalink: /admin-docs/groups-users/
 layout: single
-title: Groups and Users Withing Arches
+title: Groups and Users 
 sidebar:
   nav: "admin docs"
 defaults:
