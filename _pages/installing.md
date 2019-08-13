@@ -1,6 +1,7 @@
 ---
 permalink: /admin-docs/installing/
 layout: single
+title: Installing Arches
 sidebar:
   nav: "admin docs"
 defaults:
@@ -10,6 +11,4 @@ defaults:
     values:
       author_profile: false
 ---
-# Installing Arches
-
 For in-depth instructions about how to install Arches, check out the [Arches Installation Guide](https://www.archesproject.org/documentation/).
