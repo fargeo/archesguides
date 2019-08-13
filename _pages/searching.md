@@ -17,7 +17,7 @@ defaults:
 
 # Searching Arches
 The search tab in Arches is used to find and select resource models from your project. Search results are displayed in list form to the left and on the map to the right.
-![Search Results]({{site.https://fargeo.github.io}}/assets/images/searchResults.png)
+![Search Results]({{site.url}}/assets/images/searchResults.png)
 # Filtering
 There are multiple parameters you can choose to filter your search results by. Multiple filters can be layered together to further narrow your results and all of the currently applied filters will be displayed in the search field. These filters can then be removed independently by clicking the 'x' inside each filters colored box.
 ![Search Filtering](assets/images/searchFiltering.png)
