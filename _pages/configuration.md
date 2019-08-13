@@ -1,6 +1,7 @@
 ---
 permalink: /admin-docs/configuration/
 layout: single
+title: System Configuration
 sidebar:
   nav: "admin docs"
 toc: true
@@ -13,8 +14,6 @@ defaults:
     values:
       author_profile: false
 ---
-# System Configuration
-
 # System settings
 ## Map settings
 ## Hexbin
@@ -25,7 +24,7 @@ defaults:
 
 # Application settings
 There are many settings in the settings_local.py and settings.py files that should be considered and set before further customizing the settings within Arches. Both the settings_local.py and settings.py can be found wherever you created your project under /[your  project name]/[your project name]. You can open these files in python Idle or other code friendly text editor to make your changes.
-## settings_local.py
+## Settings_local.py
 This file contains some basic options for data presentation and access as well as a few user account settings.
 ### Time wheel
 ### Default file location
