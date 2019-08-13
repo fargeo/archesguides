@@ -1,6 +1,7 @@
 ---
 permalink: /modeler-docs/database/
 layout: single
+title: Designing an Arches Database
 sidebar:
   nav: "modeler docs"
 toc: true
@@ -13,7 +14,6 @@ defaults:
     values:
       author_profile: false
 ---
-# Designing an Arches Database
 ## Graphs
 ## Semantics and Ontology
 ## Data Entry and Permissions

@@ -1,6 +1,7 @@
 ---
 permalink: /user-docs/new-record/
 layout: single
+title: Creating a New Record
 sidebar:
   nav: "user docs"
 toc: true
@@ -13,9 +14,6 @@ defaults:
     values:
       author_profile: false
 ---
-# Creating a New Record
-
-
 # Resource Structure
 ## Branches
 ## Cards

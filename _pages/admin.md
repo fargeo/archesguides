@@ -1,6 +1,7 @@
 ---
 permalink: /admin/
 layout: single
+title: Welcome to the Admin Guide!
 sidebar:
   nav: "admin docs"
 toc: true
@@ -14,8 +15,6 @@ defaults:
     values:
       author_profile: true
 ---
-# Welcome to the Admin Guide!
-
 ## What is Arches?
 Arches is a web-based, geospatial information system for cultural heritage inventory and management. The platform is purpose-built for the international cultural heritage field, and it is designed to record all types of immovable heritage, including archaeological sites, buildings and other historic structures, landscapes, and heritage ensembles or districts.
 

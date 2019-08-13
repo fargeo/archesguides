@@ -1,6 +1,7 @@
 ---
 permalink: /admin-docs/app-settings/
 layout: single
+title: Application Settings
 sidebar:
   nav: "admin docs"
 defaults:
@@ -10,5 +11,4 @@ defaults:
     values:
       author_profile: false
 ---
-# Application Settings
 You can customize the application settings of your project to create an ideal environment for your users.
