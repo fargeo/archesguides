@@ -1,6 +1,7 @@
 ---
 permalink: /modeler-docs/rdm/
 layout: single
+title: Reference Data Manager (RDM)
 sidebar:
   nav: "modeler docs"
 defaults:
@@ -10,4 +11,4 @@ defaults:
     values:
       author_profile: false
 ---
-# Reference Data Manager (RDM)
+

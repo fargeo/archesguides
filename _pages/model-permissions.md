@@ -1,6 +1,7 @@
 ---
 permalink: /modeler-docs/permissions/
 layout: single
+title: Defining Model Permissions
 sidebar:
   nav: "modeler docs"
 defaults:
@@ -10,4 +11,4 @@ defaults:
     values:
       author_profile: false
 ---
-# Defining Model Permissions 
+

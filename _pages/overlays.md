@@ -1,6 +1,7 @@
 ---
 permalink: /admin-docs/overlays/
 layout: single
+title: Overlays
 sidebar:
   nav: "admin docs"
 defaults:
@@ -10,4 +11,4 @@ defaults:
     values:
       author_profile: false
 ---
-# Overlays 
+

@@ -13,20 +13,20 @@ feature_row:
       alt: "placeholder image 1"
       title: "User Guide"
       excerpt: "Explore our user guide for basic Arches set-up and customization instructions."
-      url: "http://localhost:4000/user/"
+      url: "https://fargeo.github.io/archesguides/user/"
       btn_label: "Go to guide"
       btn_class: "btn--info"
     - image_path: /assets/images/admin.jpg
       alt: "placeholder image 2"
       title: "Admin Guide"
       excerpt: "Check out our admin guide and learn about available Arches administrative functions."
-      url: "http://localhost:4000/admin/"
+      url: "https://fargeo.github.io/archesguides/admin/"
       btn_label: "Go to guide"
       btn_class: "btn--info"
     - image_path: /assets/images/user.jpg
       title: "Data Modeler Guide"
       excerpt: "Unlock Arches potential with our modeler’s guide to complex data modeling capabilities."
-      url: "http://localhost:4000/modeler/"
+      url: "https://fargeo.github.io/archesguides/modeler/"
       btn_label: "Go to guide"
       btn_class: "btn--info"
 ---
