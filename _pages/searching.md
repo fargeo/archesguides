@@ -1,6 +1,7 @@
 ---
 permalink: /user-docs/searching/
 layout: single
+title: Searching Arches
 sidebar:
   nav: "user docs"
 toc: true
@@ -13,9 +14,6 @@ defaults:
     values:
       author_profile: false
 ---
-# Searching Arches
-
-
 # Filtering
 ## By concept
 ## By area
