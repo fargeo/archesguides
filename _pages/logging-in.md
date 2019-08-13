@@ -1,6 +1,7 @@
 ---
 permalink: /user-docs/logging-in/
 layout: single
+title: Logging into Arches
 sidebar:
   nav: "user docs"
 defaults:
@@ -10,4 +11,3 @@ defaults:
     values:
       author_profile: false
 ---
-# Logging in to Arches 
