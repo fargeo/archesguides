@@ -28,8 +28,6 @@ user docs:
         url: /user-docs/new-record/
       - title: "Editing an existing record"
         url: /user-docs/existing-record/
-      - title: "Navigation"
-        url: /user-docs/navigation/
       - title: "Using Workflows"
         url: /user-docs/workflows/
 
