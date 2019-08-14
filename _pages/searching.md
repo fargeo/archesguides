@@ -31,7 +31,6 @@ Searching by area allows you to sort results based on their geographical locatio
 Time filters require you to select the type of time range you want to sort by from the appropriate resource model you're searching for. You can either enter a range in the time filter or select one from the time wheel.
 ![Search by Time Filter]({{site.url}}/assets/GIFs/searchByTimeFilter.gif)
 ![Search by Time Wheel]({{site.url}}/assets/GIFs/searchByWheel.gif)
-=======
 
 ## Advanced Search
 
