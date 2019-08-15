@@ -28,6 +28,6 @@ No, Arches does not require any Esri software. Esri software requires users to p
 ***Does Arches work on smartphones or tablets?***  
 Yes – provided that you have an internet connection. The Arches user interface has been designed for display on screens of all sizes.
 
-**Can images be attached to records?***  
+***Can images be attached to records?***  
 Yes! Users are able to upload images to your Arches database and associate them with existing records. What is more, images that you upload to Arches are treated as resources in their own right. This means that you can add or edit information about them and relate them to any number of resources without needing to upload them again.
 
