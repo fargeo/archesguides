@@ -31,7 +31,7 @@ feature_row:
       btn_label: "Go to guide"
       btn_class: "btn--info"
 ---
-## What is Arches?
+# What is Arches?
 Arches is a web-based, geospatial information system for cultural heritage inventory and management. The platform is purpose-built for the international cultural heritage field, and it is designed to record all types of immovable heritage, including archaeological sites, buildings and other historic structures, landscapes, and heritage ensembles or districts. The system is freely available for organizations worldwide to download, install, and configure in accordance with their individual needs and without restrictions.
 
 # Check out our guides below
