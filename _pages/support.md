@@ -20,7 +20,7 @@ feature_row:
     excerpt: "Something not right? Drop us a ticket and we'll take a look!"
     url: "https://github.com/archesproject/arches/issues"
     btn_label: "File ticket"
-    btn_class: "btn--info"
+    btn_class: "btn--inverse"
   - image_path: /assets/images/forumicon2.png
     alt: "placeholder image 2"
     title: "Visit our forum!"
