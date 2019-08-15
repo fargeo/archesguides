@@ -23,7 +23,7 @@ Arches provides core services for creating, reading, updating, and deleting reso
 
 ## Administrator FAQs
 ***We would like to be able to share some information with the public, but also hide some sensitive data that we don’t want to be publicly available. Can we do that using Arches?***  
-Yes! Arches allows extremely granular control over which users or groups of users (such as the general public) have access to specific items of information. In fact, a system administrator can control access at a field-by-field level.
+Yes! Arches allows extremely granular control over which users or groups of users (such as the general public) have access to specific items of information.  A system administrator is able to further define on a field-by-field level the data that users have access to, for example, depending on their login credentials.
 
 ***If it is a requirement to be able to make a version of our repository available to the public over the internet, can we do that using Arches?***  
 Yes! Arches provides many intuitive ways for the public to search the data that you make available online and to access information related to heritage places.
