@@ -14,7 +14,7 @@ defaults:
     values:
       author_profile: false
 ---
-To create a new record, go to the "Add New Resource" tab and select the resource model that best fits the record you want to create.
+To create a new record, go to the "Add New Resource" tab and select the resource model that best fits for the record you want to create.
 ![Create Record]({{site.url}}/assets/images/resourceCreate.png)
 # Resource Structure
 Once you have selected a resource model, your reccord will be displayed as a "card tree" on the left hand side.
