@@ -20,7 +20,7 @@ feature_row:
     excerpt: "Something not right? Drop us a ticket and we'll take a look!"
     url: "https://github.com/archesproject/arches/issues"
     btn_label: "File ticket"
-    btn_class: "btn--inverse"
+    btn_class: "btn--info"
   - image_path: /assets/images/forumicon2.png
     alt: "placeholder image 2"
     title: "Visit our forum!"
@@ -30,8 +30,8 @@ feature_row:
     btn_class: "btn--inverse"
   - image_path: /assets/images/contacticon.png
     title: "Get in contact!"
-    excerpt: "Have a question? Want to make a suggestion? We would love to hear from you!."
-    url: "http://localhost:4000/modeler/"
+    excerpt: "Have a question? Want to make a suggestion? We would love to hear from you!"
+    url: "https://github.com/fargeo/archesguides"
     btn_label: "Contact us"
     btn_class: "btn--inverse"
 
