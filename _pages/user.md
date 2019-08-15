@@ -16,4 +16,4 @@ defaults:
       author_profile: true
 ---
 ## What can end users do with Arches?
-Arches is designed for end users to easily search, explore, and download resources directly. Our User Guide includes step-by-step instruction for initial Arches set up and basic functionalities.
+Arches is designed for end users to easily search, explore, and download resources directly. By design, the Arches framework hides the complex technicalities of a data management system, creating an accessible, user-friendly interface. Our User Guide includes step-by-step instruction for initial Arches set up and basic functionalities. 
