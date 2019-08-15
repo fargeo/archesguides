@@ -1,10 +1,7 @@
 ---
 permalink: /user-docs/workflows/
 layout: single
-title: Welcome to the User Guide!
-toc: true
-toc_label: "Workflows"
-toc_icon: "file-alt"
+title: Using Workflows
 sidebar:
   nav: "user docs"
 defaults:

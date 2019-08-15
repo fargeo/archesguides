@@ -19,3 +19,4 @@ The card tree of whichever record you choose to edit will be shown on the left, 
 ![Add data to a record]({{site.url}}/assets/images/recordEditAdd.gif)
 You can also edit already entered data by going to the created card, editing the entered information, and clicking "save edit".
 ![Editing existing data]({{site.url}}/assets/images/recordEditEdit.gif)
+
