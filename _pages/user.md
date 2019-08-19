@@ -3,8 +3,8 @@ permalink: /user/
 layout: single
 title: Welcome to the Users Guide!
 toc: true
-pagination_previous: true
-pagination_next: true 
+page.next: true
+page.previous: true 
 toc_label: "Table of Contents"
 toc_icon: "file-alt"
 sidebar:
