@@ -16,11 +16,11 @@ defaults:
 ---
 
 To create a new record, go to the "Add New Resource" tab and select the resource model that best fits for the record you want to create.
-![Create Record]({{site.url}}/assets/images/resourceCreate.png)
+![Create Record]({{site.url}}/assets/images/newRecordAnnotated.png)
 
 # Resource Structure
 Once you have selected a resource model, your reccord will be displayed as a "card tree" on the left hand side.  
-![Card Tree]({{site.url}}/assets/images/cardsTree.png)  
+![Card Tree]({{site.url}}/assets/images/cardTreeAnnotated.png)  
 
 You can think of creating data within your record as creating cards. Some cards are nested within other cards to give more structure to records.
 ## Branches
