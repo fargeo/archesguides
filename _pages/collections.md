@@ -1,6 +1,7 @@
 ---
 permalink: /admin-docs/collections/
 layout: single
+title: Collections
 sidebar:
   nav: "admin docs"
 defaults:
@@ -10,4 +11,3 @@ defaults:
     values:
       author_profile: false
 ---
-# Collections

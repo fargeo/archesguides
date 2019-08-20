@@ -1,6 +1,7 @@
 ---
 permalink: /admin-docs/configuration/
 layout: single
+title: System Configuration
 sidebar:
   nav: "admin docs"
 toc: true
@@ -13,9 +14,8 @@ defaults:
     values:
       author_profile: false
 ---
-# System Configuration
-
 # System settings
+System settings within Arches are stored in a special settings resource model that is part of your project's database. Settings are displayed in a card tree and are adjusted in a similar fashion to typical records. You can select any card to make changes and then select "save edit" to implement these settings adjustments.
 ## Map settings
 ## Hexbin
 
@@ -24,7 +24,9 @@ defaults:
 ## Managing groups (Django admin)
 
 # Application settings
-## settings_local.py
+There are many settings in the settings_local.py and settings.py files that should be considered and set before further customizing the settings within Arches. Both the settings_local.py and settings.py can be found wherever you created your project under /[your  project name]/[your project name]. You can open these files in python Idle or other code friendly text editor to make your changes.
+## Settings_local.py
+This file contains some basic options for data presentation and access as well as a few user account settings.
 ### Time wheel
 ### Default file location
 ### Database settings
@@ -33,7 +35,7 @@ defaults:
 ### Default group
 ### Password settings
 ### Email settings
-### Installed apps 
+### Installed apps
 ### Ontology Settings
 
 ## Settings.py

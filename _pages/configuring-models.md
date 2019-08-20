@@ -1,6 +1,7 @@
 ---
 permalink: /admin-docs/models/
 layout: single
+title: Configuring Models
 sidebar:
   nav: "admin docs"
 defaults:
@@ -10,4 +11,4 @@ defaults:
     values:
       author_profile: false
 ---
-# Configuring Models
+
