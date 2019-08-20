@@ -25,12 +25,14 @@ repository: "fargeo/archesguides"
 twitter_username: jekyllrb
 github_username:  jekyll
 
-search_provider: lunr
-search: true
-include:
-  pages: true
-search_full_content: true
+search_provider: algolia
 
+algolia:
+  application_id: L3XHKHK4X7
+  index_name: archesguides # You can replace that with whatever name you want
+  search_only_api_key: 9f912c271cc668595802280eabe37916 # YOUR_SEARCH_ONLY_API_KEY
+
+exclude: [vendor]
 
 # Reading Files
 include:
