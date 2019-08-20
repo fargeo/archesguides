@@ -25,6 +25,7 @@ repository: "fargeo/archesguides"
 twitter_username: jekyllrb
 github_username:  jekyll
 
+search: true
 search_provider: algolia
 
 algolia:
@@ -34,7 +35,7 @@ algolia:
 
 exclude: [vendor]
 
-github: [metadata] 
+github: [metadata]
 
 # Reading Files
 include:
