@@ -34,6 +34,8 @@ algolia:
 
 exclude: [vendor]
 
+github: [metadata] 
+
 # Reading Files
 include:
   - _pages
