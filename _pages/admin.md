@@ -5,6 +5,8 @@ title: Welcome to the Admin Guide!
 sidebar:
   nav: "admin docs"
 toc: true
+toc_label: false
+toc_icon: false
 toc_sticky: true
 defaults:
   # _pages
