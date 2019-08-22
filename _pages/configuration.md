@@ -53,17 +53,17 @@ A number of important user settings, security settings, and directory settings a
 You can set the destination directory for uploaded files by changing the value of MEDIA_ROOT
 ### Log settings
 Settings for both the regular and import logs are managed within settings.py. You can set the directory where the logs are kept and change the format of the log entries, along with other optional adjustments.
-![Log Configuration]({{site.url}}/assets/images/loggingConfigurationAnnotated.png)
+![Log Configuration]({{site.url}}/assets/images/loggingConfigurationAnnotated.png){: width=3000 height=2000}
 ### Security settings
 The secret key used for production is stored here as SECRET_KEY and you can toggle django debugging on or off by changing the value of DEBUG
-![Security Configuration]({{site.url}}/assets/images/securitySettingsAnnotated.png)
+![Security Configuration]({{site.url}}/assets/images/securitySettingsAnnotated.png){: width=3000 height=2000}
 
 **Info** Setting DEBUG to false will replace the more complex Django error messages with standard 404 and 500 error pages. It will also cause Django to stop serving static files, requiring you to set up an external webserver.
 {: .notice--info}
 ### Host settings/permissions
 You can change the database host and set other host permissions as well as adjusting other PostGIS settings that were given their initial value during your installation of Arches.
 
-![Host Configuration]({{site.url}}/assets/images/hostSettingsAnnotated.png)
+![Host Configuration]({{site.url}}/assets/images/hostSettingsAnnotated.png){: width=3000 height=2000}
 ### Cache settings
 Near the bottom of your settings.py, you can set the location for your Tile and Django caches along with some other configurable attributes.
-![Host Configuration]({{site.url}}/assets/images/cacheSettings.png)
+![Host Configuration]({{site.url}}/assets/images/cacheSettings.png){: width=3000 height=2000}
