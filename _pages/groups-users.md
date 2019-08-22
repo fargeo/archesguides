@@ -25,7 +25,7 @@ Arches installs with a handful of pre-existing groups with permissions already s
 1. Give the new group an appropriate name
 1. Set the permissions you want users added to this group to have access to by selecting them under 'Available Permissions' and using the arrows to move them into 'Chose Permissions'
 1. Click 'SAVE' in the bottom right, you can now add users to this group
-<img src="/archesguides/assets/GIFs/groupCreate.gif" width = "150%" height = "150%" align = "right" />
+<img src="/archesguides/assets/GIFs/groupCreate.gif" width = "200%" height = "200%"/>
 
 **To Edit an existing group:**
 1. Navigate to YourArchesHost/admin/
