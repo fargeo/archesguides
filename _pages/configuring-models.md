@@ -18,4 +18,6 @@ The Graph tab is where you design the structure of your resource model. From her
 
 # Cards
 User interface is controlled from the cards tab. The node structure of your resource model will be shown by the card tree on the left. Each NodeGroup defined by a semantic node makes up one card. Each node in a NodeGroup is controlled by a widget on that NodeGroups card. You can click on a semantic node to view the card for its NodeGroup, or click on a node to jump to its card and select its widget.
+
 # Permissions
+From the Permissions tab you can control the viewing and editing privileges of each user group. Permissions are set at the card level, so only the semantic nodes that form NodeGroups are selectable from the Permissions tab. 
