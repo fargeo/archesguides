@@ -11,4 +11,4 @@ defaults:
     values:
       author_profile: false
 ---
-
+Thesauri are multi-level controlled vocabularies that relate a large number of concepts hierarchically. 
