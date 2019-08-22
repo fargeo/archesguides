@@ -53,6 +53,8 @@ admin docs:
 
   - title: "Configuring Models"
     children:
+      - title: "Model Structure"
+        url: /admin-docs/model-stucture/
       - title: "Graph"
         url: /admin-docs/graph-design/
       - title: "Cards"
