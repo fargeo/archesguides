@@ -6,7 +6,7 @@ sidebar:
   nav: "admin docs"
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "file"
+toc_icon: "file-alt"
 toc_sticky: true
 defaults:
   # _pages
