@@ -25,10 +25,10 @@ Arches installs with a handful of pre-existing groups with permissions already s
 1. Give the new group an appropriate name
 1. Set the permissions you want users added to this group to have access to by selecting them under 'Available Permissions' and using the arrows to move them into 'Chose Permissions'
 1. Click 'SAVE' in the bottom right, you can now add users to this group
-![Creating a group in the Django interface]({{site.url}}/assets/GIFs/groupCreate.gif = 250x250){: .align-right}
+<img src="/assets/GIFs/groupCreate.gif" width = "350" height = "200" />
 
 **To Edit an existing group:**
-1. YourArchesHost/admin/
+1. Navigate to YourArchesHost/admin/
 1. Under 'Authentication and Authorization' find the row labeled 'Groups' and click the 'Change' button on the right
 1. Click on the name of the group you wish to edit
 1. Edit the name of the group if you wish
