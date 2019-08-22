@@ -30,7 +30,7 @@ feature_row:
     btn_class: "btn--inverse"
   - image_path: /assets/images/contacticon.png
     title: "Get in contact!"
-    excerpt: "Have a question about our guides? Contact us through GitHub! We would love to hear from you!"
+    excerpt: "Have a question about our documentation? Contact us through GitHub!"
     url: "https://github.com/fargeo/archesguides"
     btn_label: "Contact us"
     btn_class: "btn--inverse"
