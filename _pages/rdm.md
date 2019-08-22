@@ -12,3 +12,4 @@ defaults:
       author_profile: false
 ---
 
+The Reference Data Manager is the tool for creating and maintaining controlled vocabularies that will be used in the dropdowns and other controlled fields within Arches.
