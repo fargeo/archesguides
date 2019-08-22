@@ -5,8 +5,6 @@ title: Welcome to the Admin Guide!
 sidebar:
   nav: "admin docs"
 toc: true
-toc_label: "Table of Contents"
-toc_icon: "file-alt"
 toc_sticky: true
 defaults:
   # _pages
