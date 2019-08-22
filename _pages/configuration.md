@@ -31,9 +31,6 @@ Arches can group search results and display them as hexagonal bins using an over
 
 **Warning:** A large project area combined with a small hexagon size and/or high precision will take a very long time to load, and can crash your browser. We suggest changing these settings in small increments to find the best combination for your project.
 {: .notice--warning}
-# Groups/users
-## Default Groups
-## Managing groups (Django admin)
 
 # Application settings
 There are many settings in the settings_local.py and settings.py files that should be considered and set before further customizing the settings within Arches. Both the settings_local.py and settings.py can be found wherever you created your project under /[your  project name]/[your project name]. You can open these files in python Idle or other code friendly text editor to make your changes.
@@ -64,7 +61,7 @@ The secret key used for production is stored here as SECRET_KEY and you can togg
 **Info** Setting DEBUG to false will replace the more complex Django error messages with standard 404 and 500 error pages. It will also cause Django to stop serving static files, requiring you to set up an external webserver.
 {: .notice--info}
 ### Host settings/permissions
-You can change the database host set other host permissions as well as adjusting other PostGIS settings that were given their initial value during your installation of Arches.
+You can change the database host and set other host permissions as well as adjusting other PostGIS settings that were given their initial value during your installation of Arches.
 
 ![Host Configuration]({{site.url}}/assets/images/hostSettingsAnnotated.png)
 ### Cache settings
