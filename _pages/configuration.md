@@ -72,5 +72,5 @@ You can change the database host and set other host permissions as well as adjus
 ### Cache settings
 Near the bottom of your settings.py, you can set the location for your Tile and Django caches along with some other configurable attributes.  
 
-
+    
 ![Host Configuration]({{site.url}}/assets/images/cacheSettings.png){: .full}
