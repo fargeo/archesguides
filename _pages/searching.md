@@ -7,6 +7,7 @@ sidebar:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "file-alt"
+toc_sticky: true
 defaults:
   # _pages
   - scope:
