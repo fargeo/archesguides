@@ -54,11 +54,11 @@ admin docs:
   - title: "Configuring Models"
     children:
       - title: "Model Structure"
-        url: /admin-docs/model-stucture/
+        url: /admin-docs/model-structure/
       - title: "Graph"
         url: /admin-docs/graph-design/
       - title: "Cards"
-        url: /admin-docs/cards-dsign/
+        url: /admin-docs/card-design/
       - title: "Permissions"
         url: /admin-docs/permissions-design/
 
