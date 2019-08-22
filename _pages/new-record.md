@@ -19,10 +19,10 @@ To create a new record, go to the "Add New Resource" tab and select the resource
 ![Create Record]({{site.url}}/assets/images/newRecordAnnotated.png)
 
 # Resource Structure
-Once you have selected a resource model, your reccord will be displayed as a "card tree" on the left hand side.  
+Once you have selected a resource model, your record will be displayed as a "card tree" on the left hand side.  
 ![Card Tree]({{site.url}}/assets/images/cardTreeAnnotated.png)  
 
-You can think of creating data within your record as creating cards. Some cards are nested within other cards to give more structure to records.
+You can think of creating data within your record as adding cards. Some cards are nested within other cards to give more structure to records.
 ## Branches
 Branches are a non-editable version of a resource model that can be used in multiple records and types of resources. Branches allow you to reuse complex node structures across multiple records.
 ## Cards
