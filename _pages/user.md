@@ -7,6 +7,7 @@ page.next: true
 page.previous: true 
 toc_label: "Table of Contents"
 toc_icon: "file-alt"
+toc_sticky: true
 sidebar:
   nav: "user docs"
 defaults:
