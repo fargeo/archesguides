@@ -51,10 +51,17 @@ admin docs:
       - title: "Application Settings"
         url: /admin-docs/app-settings/
 
+  - title: "Configuring Models"
+    children:
+      - title: "Graph"
+        url: /admin-docs/graph-design/
+      - title: "Cards"
+        url: /admin-docs/cards-dsign/
+      - title: "Permissions"
+        url: /admin-docs/permissions-design/
+
   - title: Map Services
     children:
-      - title: "Configuring Models"
-        url: /admin-docs/models/
       - title: "Basemaps"
         url: /admin-docs/basemaps/
       - title: "Overlays"
