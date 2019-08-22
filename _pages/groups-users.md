@@ -34,4 +34,4 @@ Arches installs with a handful of pre-existing groups with permissions already s
 1. Edit the name of the group if you wish
 1. Add any new permissions you want the group to have access to or remove any permissions you no longer want the group to have access too
 1. Click 'SAVE' in the bottom right to administer these changes to the group
-![Editing group permissions in the Django interface]({{site.url}}/assets/GIFs/groupEdit.gif)
+![Editing group permissions in the Django interface]({{site.url}}/assets/GIFs/groupEdit.gif){: width=2500 height=1100 .full}
