@@ -37,6 +37,7 @@ There are many settings in the settings_local.py and settings.py files that shou
 ## Settings_local.py
 This file contains some basic options for data presentation and access as well as a few user account settings.
 ### Time wheel
+[Guide to Time wheel configuration](https://arches.readthedocs.io/en/stable/additional-configuration/#time-wheel-configuration)
 ### Default file location
 ### Database settings
 ### Elasticsearch parameters
@@ -72,5 +73,5 @@ You can change the database host and set other host permissions as well as adjus
 ### Cache settings
 Near the bottom of your settings.py, you can set the location for your Tile and Django caches along with some other configurable attributes.  
 
-    
+
 ![Host Configuration]({{site.url}}/assets/images/cacheSettings.png){: .full}
