@@ -1,6 +1,7 @@
 ---
 permalink: /admin-docs/configuration/
 layout: single
+title: System Settings
 sidebar:
   nav: "admin docs"
 toc: true
@@ -14,7 +15,6 @@ defaults:
     values:
       author_profile: false
 ---  
-# System Settings
 System settings within Arches are stored in a special settings resource model that is part of your project's database. Settings are displayed in a card tree and are adjusted in a similar fashion to typical records. You can select any card to make changes and then select "save edit" to implement these settings adjustments.
 ## Map settings
 Under 'Default Map Settings' you can:
