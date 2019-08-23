@@ -17,3 +17,4 @@ There are four permission privileges that can be set in different combinations f
 - **No Access**: Prevents users from the selected group from viewing or editing the selected NodeGroup
 - **Read**: Allows users from the selected group to view this NodeGroup on the map and on resource reports
 - **Create/Update**: Allows users from the selected group to edit and create instances of the selected NodeGroup
+^

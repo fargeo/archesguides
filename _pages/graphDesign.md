@@ -18,3 +18,4 @@ The Graph tab is where you design the structure of your resource model. From her
 - A semantic type 'Asset' node that forms a NodeGroup within 'Production'
 - A semantic type 'Material' node that forms a NodeGroup within 'Asset'
 - Nodes of other types within each NodeGroup that hold data (non-semantic)
+^
