@@ -33,25 +33,25 @@ Cards are defined by semantic nodes that hold no data, but serve as a heading or
 On this example taken from a card tree you can see:
 - The semantic node 'Asset Descriptions' that forms a card
 - Four data containing nodes that are children of the 'Asset Descriptions' node and have data entry fields on its card
+<a/>
 ### Adding a Record
 To add a record:
 1. Select any card that you want to add data to
 1. Fill out any of the fields on the card that you have data for, some cards have required fields that you must enter a value for in order to create the card
 1. Click the ![Add Button]({{site.url}}/assets/images/addButton.PNG) button
-
+<a/>
 ### Saving a Record
 To save a Record:
 1. Select any already created card that has data you want to edit or that you want to add new data to
 1. Change any information that needs editing and fill out any of the empty fields you wish to add data for
-1. Click the ![Save Edit Button]({{site.url}}/assets/images/saveEditButton.PNG)
+1. Click the ![Save Edit Button]({{site.url}}/assets/images/saveEditButton.PNG) Button
+<a/>
 # Approval Process
-Depending on what user groups you're in and what your project administrators have set your permissions to, your edits may show up as 'Provisional' when you first make them.
-
+Depending on what user groups you're in and what your project administrators have set your permissions to, your edits may show up as 'Provisional' when you first make them.  
 
 ![Provisional Edit in Search]({{site.url}}/assets/images/provEdit.png)
 
 
-To maintain the integrity of a projects database, Arches has a built in quality assurance system that allows a set group of resource reviewers to examine provisional edits and then approve or decline them.
-
+To maintain the integrity of a projects database, Arches has a built in quality assurance system that allows a set group of resource reviewers to examine provisional edits and then approve or decline them.  
 
 ![Provisional Edit in Search]({{site.url}}/assets/images/provReview.png)
