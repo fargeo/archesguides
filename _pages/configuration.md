@@ -65,7 +65,7 @@ The secret key used for production is stored here as SECRET_KEY and you can togg
 
 ![Security Configuration]({{site.url}}/assets/images/securitySettingsAnnotated.png){: .full}
 
-**Info** Setting DEBUG to false will replace the more complex Django error messages with standard 404 and 500 error pages. It will also cause Django to stop serving static files, requiring you to set up an external webserver.
+**Info:** Setting DEBUG to false will replace the more complex Django error messages with standard 404 and 500 error pages. It will also cause Django to stop serving static files, requiring you to set up an external webserver.
 {: .notice--info}
 ### Host settings/permissions
 You can change the database host and set other host permissions as well as adjusting other PostGIS settings that were given their initial value during your installation of Arches.
