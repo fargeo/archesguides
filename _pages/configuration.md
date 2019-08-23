@@ -1,6 +1,6 @@
 ---
 permalink: /admin-docs/configuration/
-layout: wide
+layout: single
 title: System Configuration
 sidebar:
   nav: "admin docs"
