@@ -1,7 +1,7 @@
 ---
 permalink: /user-docs/existing-record/
 layout: single
-title: Editing an Existing Record in Arches
+title: Editing an Existing Record 
 sidebar:
   nav: "user docs"
 defaults:
