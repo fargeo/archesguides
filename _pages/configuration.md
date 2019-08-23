@@ -7,13 +7,15 @@ sidebar:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "file-alt"
+toc_sticky: true
 defaults:
   # _pages
   - scope:
       type: pages
     values:
       author_profile: false
----
+---  
+
 # System settings
 System settings within Arches are stored in a special settings resource model that is part of your project's database. Settings are displayed in a card tree and are adjusted in a similar fashion to typical records. You can select any card to make changes and then select "save edit" to implement these settings adjustments.
 ## Map settings

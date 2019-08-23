@@ -26,7 +26,7 @@ user docs:
     children:
       - title: "Creating a New Record"
         url: /user-docs/new-record/
-      - title: "Editing an existing record"
+      - title: "Editing an Existing Record"
         url: /user-docs/existing-record/
       - title: "Using Workflows"
         url: /user-docs/workflows/
