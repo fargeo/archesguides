@@ -16,6 +16,6 @@ Arches collector is an application for mobile devices that allows users to colle
 1. Select the Model(s) and associated data entry cards to include in the project
 2. Select the People that you want to invite to the project
 3. Define the start and end dates of your project
-
+^
 Warning: The project end date must be after the current date.
 {: .notice--warning}
