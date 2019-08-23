@@ -5,6 +5,7 @@ layout: single
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "file-alt"
+toc_sticky: true
 sidebar:
   nav: "modeler docs"
 defaults:

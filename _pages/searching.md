@@ -7,6 +7,7 @@ sidebar:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "file-alt"
+toc_sticky: true
 defaults:
   # _pages
   - scope:
@@ -18,7 +19,8 @@ The search tab in Arches is used to find and select resource models from your pr
 
 ![Search Results]({{site.url}}/assets/images/searchResultsAnnotated.png)
 # Filtering
-There are multiple parameters you can choose to filter your search results by. Multiple filters can be layered together to further narrow your results and all of the currently applied filters will be displayed in the search field. These filters can be inverted to exclude the queried field by clicking the colored box or removed independently by clicking the 'x' inside each filters colored box.
+There are multiple parameters you can choose to filter your search results by. Multiple filters can be layered together to further narrow your results and all of the currently applied filters will be displayed in the search field. These filters can be inverted to exclude the queried field by clicking the colored box or removed independently by clicking the 'x' inside each filters colored box.  
+
 ![Search Filtering]({{site.url}}/assets/images/searchFilteringAnnotated.png)
 ## By concept
 Searching by concept functions like a typical search bar for all of the concepts in your projects Thesauri. As you type Arches will suggest possible concepts or resources that contain whatever text you have entered.  
