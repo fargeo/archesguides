@@ -19,5 +19,7 @@ Existing records can be opened from the search tab to be viewed and edited. You 
 The card tree of whichever record you choose to edit will be shown on the left, similarly to when you are creating a new record. You can navigate to any blank card and enter new data by clicking add the same as you would when creating a new record.  
 
 ![Add data to a record]({{site.url}}/assets/GIFs/recordEditAdd.gif)
-You can also edit already entered data by going to the created card, editing the entered information, and clicking the ![Save Edit Button]({{site.url}}/assets/images/saveEditButton.PNG) button.
+You can also edit already entered data by going to the created card, editing the entered information, and clicking the ![Save Edit Button]({{site.url}}/assets/images/saveEditButton.PNG) button.  
+
+  
 ![Editing existing data]({{site.url}}/assets/GIFs/recordEditEdit.gif)

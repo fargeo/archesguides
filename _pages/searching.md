@@ -39,4 +39,5 @@ Time filters require you to select the type of time range you want to sort by fr
 ## Advanced Search
 
 # Viewing Results
+Below the search bar Arches will display how many results your query yielded and below that the results will be shown on in list form. All of the results that show up on the first page of the list will also have a marker placed on the map.
 ## Selecting resources

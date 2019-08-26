@@ -26,6 +26,7 @@ Under 'Default Map Settings' you can:
 **Info:** Upon navigating to the search page, the map will automatically zoom to your project extent that you set here.
 {: .notice--info}
 * Set the default, maximum, and minimum zoom values to control the initial zoom level as well as the amount users are allowed to zoom in or out. These should be three integers between zero and twenty with  Min Zoom <= Default Zoom <= Max Zoom.
+
 ## Hexbin
 Arches can group search results and display them as hexagonal bins using an overlay, but you have to do some configuring ahead of time for it to be effective for your project. There are two key hexbin settings located with the other default map settings under 'Search Results Grid':
 * **Hexagon Size** changes the size of the hexagons that will appear on the map. Making your hexagons smaller will give a more detailed view of resource density while larger hexagons will provide a simpler and more general picture.
@@ -51,7 +52,7 @@ This file contains some basic options for data presentation and access as well a
 ### Ontology Settings
 
 ## Settings.py
-A number of important user settings, security settings, and directory settings are configured from this file. Most of these settings work through django.
+A number of important user settings, security settings, and directory settings are configured from this file. Most of these settings are applied through Django.
 ### Upload settings
 You can set the destination directory for uploaded files by changing the value of MEDIA_ROOT
 ### Log settings
