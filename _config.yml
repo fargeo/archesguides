@@ -32,6 +32,9 @@ algolia:
   application_id: L3XHKHK4X7
   index_name: archesguides # You can replace that with whatever name you want
   search_only_api_key: 9f912c271cc668595802280eabe37916 # YOUR_SEARCH_ONLY_API_KEY
+  files_to_exclude:
+    - index.html
+    - index.md
 
 exclude: [vendor]
 
