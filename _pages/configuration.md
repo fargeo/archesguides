@@ -68,16 +68,25 @@ Near the bottom of your settings.py, you can set the location for your Tile and 
 
 ## settings_local.py
 This file contains some basic options for data presentation and access as well as a few user account settings. The settings_local.py file will override the settings.py file if there are any discrepancies in values between them.
-### Time wheel
-[Guide to Time wheel configuration](https://arches.readthedocs.io/en/stable/additional-configuration/#time-wheel-configuration)
-### Default file location
-### Database settings
-### Elasticsearch parameters
-Simple connection options and host settings for Elasticsearch can be set from here. 
-### Time formats
-### Default group
-### Password settings
-### Email settings
-
-### Installed apps
-### Ontology Settings
+### Time Formatting
+- **Time wheel**
+To configure you timewheel with custom bin sizes, follow this [guide to Time wheel configuration](https://arches.readthedocs.io/en/stable/additional-configuration/#time-wheel-configuration)
+- **Time formats**
+You can adjust the default time format for importing and exporting data, which is '%Y-%m-%d'
+^
+### Dependencies and Database Management
+- **Default file location**
+- **Database settings**
+- **Elasticsearch parameters**
+Simple connection options and host settings for Elasticsearch can be set from here.
+    - Changing the value of "timeout" will adjust how much latency will be tolerated before Elasticsearch times out a user
+    - The values "host" and "port" allow you to set the name and address of your Elasticsearch instance for Arches to find and use
+- **Installed apps**
+- **Ontology Settings**
+The name and location of the ontology to be used by your Reference Data Manager are set here. You can also add external packages to your Ontology by adding the names of the .xml files under 'ONTOLOGY_EXT'.
+^
+### Email/Account Configuration
+- **Default group**
+- **Password settings**
+- **Email settings**
+^
