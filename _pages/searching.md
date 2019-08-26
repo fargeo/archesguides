@@ -27,7 +27,7 @@ Searching by concept functions like a typical search bar for all of the concepts
 
 ![Search by Concept]({{site.url}}/assets/GIFs/searchByConcept.gif)
 ## By area
-Searching by area allows you to sort results based on their geographical location. You can create an area around a point, line, or polygon and set the buffer distance around each in which you want results to be included.  
+Searching by area allows you to sort results based on their geographical location. You can create an area around a point, line, or polygon and set the buffer distance from the boundary in which you want results to be included.  
 
 ![Search by Area Line]({{site.url}}/assets/GIFs/searchByLine.gif)
 ## By time

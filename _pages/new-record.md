@@ -16,7 +16,7 @@ defaults:
       author_profile: false
 ---
 
-To create a new record, go to the "Add New Resource" ![New Resource Tab]({{site.url}}/assets/images/newResourceTab.PNG)tab and select the resource model that best fits for the record you want to create.  
+To create a new record, go to the "Add New Resource" ![New Resource Tab]({{site.url}}/assets/images/newResourceTab.PNG) tab and select the resource model that best fits for the record you want to create.  
 
 ![Create Record]({{site.url}}/assets/images/newRecordAnnotated.png)
 The resource model you choose will determine the starting structure of your  record.
