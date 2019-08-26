@@ -11,12 +11,12 @@ defaults:
     values:
       author_profile: false
 ---
-Groups are a handy tool for organizing and managing your users. You can manage permissions for individual accounts, but in general it will be more efficient to group your users and set privileges based on these groups. 
+Groups are a handy tool for organizing and managing your users. You can manage permissions for individual accounts, but in general it will be more efficient to group your users and set privileges based on these groups.
 
 ## Default Groups
 Arches installs with a handful of pre-existing groups with permissions already set to help organize users. Groups are managed from the Django Administration page where all users and groups are created as well as edited.
 
-**Notice:** It's best to leave the default groups that come with Arches intact and create your own new groups if you want to create different permission configurations.
+**Tip:** It's best to leave the default groups that come with Arches intact and create your own new groups if you want to create different permission configurations.
 {: .notice--info}
 
 ## Managing groups (Django admin)

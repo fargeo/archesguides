@@ -27,7 +27,7 @@ Searching by concept functions like a typical search bar for all of the concepts
 
 ![Search by Concept]({{site.url}}/assets/GIFs/searchByConcept.gif)
 ## By area
-Searching by area allows you to sort results based on their geographical location. You can create an area around a point, line, or polygon and set the buffer distance around each in which you want results to be included.  
+Searching by area allows you to sort results based on their geographical location. You can create an area around a point, line, or polygon and set the buffer distance from the boundary in which you want results to be included.  
 
 ![Search by Area Line]({{site.url}}/assets/GIFs/searchByLine.gif)
 ## By time
@@ -39,4 +39,5 @@ Time filters require you to select the type of time range you want to sort by fr
 ## Advanced Search
 
 # Viewing Results
+Below the search bar Arches will display how many results your query yielded and below that the results will be shown on in list form. All of the results that show up on the first page of the list will also have a marker placed on the map.
 ## Selecting resources

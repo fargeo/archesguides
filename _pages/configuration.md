@@ -24,6 +24,7 @@ Under 'Default Map Settings' you can:
 **Info:** Upon navigating to the search page, the map will automatically zoom to your project extent that you set here.
 {: .notice--info}
 * Set the default, maximum, and minimum zoom values to control the initial zoom level as well as the amount users are allowed to zoom in or out. These should be three integers between zero and twenty with  Min Zoom <= Default Zoom <= Max Zoom.
+
 ## Hexbin
 Arches can group search results and display them as hexagonal bins using an overlay, but you have to do some configuring ahead of time for it to be effective for your project. There are two key hexbin settings located with the other default map settings under 'Search Results Grid':
 * **Hexagon Size** changes the size of the hexagons that will appear on the map. Making your hexagons smaller will give a more detailed view of resource density while larger hexagons will provide a simpler and more general picture.
@@ -34,22 +35,9 @@ Arches can group search results and display them as hexagonal bins using an over
 
 # Application settings
 There are many settings in the settings_local.py and settings.py files that should be considered and set before further customizing the settings within Arches. Both the settings_local.py and settings.py can be found wherever you created your project under /[your  project name]/[your project name]. You can open these files in python Idle or other code friendly text editor to make your changes.
-## Settings_local.py
-This file contains some basic options for data presentation and access as well as a few user account settings.
-### Time wheel
-[Guide to Time wheel configuration](https://arches.readthedocs.io/en/stable/additional-configuration/#time-wheel-configuration)
-### Default file location
-### Database settings
-### Elasticsearch parameters
-### Time formats
-### Default group
-### Password settings
-### Email settings
-### Installed apps
-### Ontology Settings
 
 ## Settings.py
-A number of important user settings, security settings, and directory settings are configured from this file. Most of these settings work through django.
+A number of important user settings, security settings, and directory settings are configured from this file. Most of these settings are applied through Django.
 ### Upload settings
 You can set the destination directory for uploaded files by changing the value of MEDIA_ROOT
 ### Log settings
@@ -75,3 +63,19 @@ Near the bottom of your settings.py, you can set the location for your Tile and 
 
 
 ![Host Configuration]({{site.url}}/assets/images/cacheSettings.png){: .full}
+
+## settings_local.py
+This file contains some basic options for data presentation and access as well as a few user account settings. The settings_local.py file will override the settings.py file if there are any discrepancies in values between them.
+### Time wheel
+[Guide to Time wheel configuration](https://arches.readthedocs.io/en/stable/additional-configuration/#time-wheel-configuration)
+### Default file location
+### Database settings
+### Elasticsearch parameters
+Simple connection options and host settings for Elasticsearch can be set from here. 
+### Time formats
+### Default group
+### Password settings
+### Email settings
+
+### Installed apps
+### Ontology Settings
