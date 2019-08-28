@@ -27,8 +27,7 @@ Once you have selected a resource model, your record will be displayed as a card
 ![Card Tree]({{site.url}}/assets/images/cardTreeAnnotated.png)  
 
 You can think of creating data within your record as adding cards. Some cards are nested within other cards to give more structure to records.
-## Branches
-Branches are a modular version of a resource model that can be used in multiple records and types of resources. Branches allow you to reuse complex node structures across multiple records. By being easily exportable and transplantable, Branches allow you to efficiently reuse node structures you create without having to rebuild them.
+
 ## Cards
 Cards are defined by semantic nodes that hold no data, but serve as a heading or descriptor for the nodes below it. Each field that data can be entered into on a card is a node that can be set to a value depending on its datatype.
 
@@ -53,3 +52,6 @@ To save a Record:
 1. Click the ![Save Edit Button]({{site.url}}/assets/images/saveEditButton.PNG) Button  
 
 ^  
+
+## Branches
+Branches are a modular version of a resource model that can be used in multiple records and types of resources. Branches allow you to reuse complex node structures across multiple records. By being easily exportable and transplantable, Branches allow you to efficiently reuse node structures you create without having to rebuild them.

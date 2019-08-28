@@ -1,7 +1,7 @@
 ---
 permalink: /user-docs/existing-record/
 layout: single
-title: Editing an Existing Record 
+title: Editing an Existing Record
 sidebar:
   nav: "user docs"
 defaults:
@@ -22,3 +22,6 @@ The card tree of whichever record you choose to edit will be shown on the left, 
 You can also edit already entered data by going to the created card, editing the entered information, and clicking the ![Save Edit Button]({{site.url}}/assets/images/saveEditButton.PNG) button.  
 
 ![Editing existing data]({{site.url}}/assets/GIFs/recordEditEdit.gif)
+
+# Copying a Record  
+An existing record can also be copied to make a new identical instance of the resource that can be edited. Open the resource you want to copy in the resource editor and click ![Manage menu]({{site.url}}/assets/images/manageMenu.PNG) in the upper left. From there, select 'Copy Resource' to create a duplicate of the record that you can find and open from search.

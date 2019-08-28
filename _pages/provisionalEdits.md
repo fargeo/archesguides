@@ -18,8 +18,10 @@ defaults:
 Depending on what your role in the project is, your edits may be classified as 'Provisional' when you first make them. To maintain the integrity of a projects database, Arches has a built in quality assurance system that allows a set group of resource reviewers to examine provisional edits and then approve or decline them. Your provisional edits will be marked by this ![Yellow card icon]({{site.url}}/assets/images/yellowIcon.PNG) yellow card icon in the resource editor. Provisional edits are created in one of two ways:
 1. Editing a record and changing a Nodes existing value. You are replacing some previously approved data with something new and a resource reviewer will decide whether to approve your changes, replacing the old data with what you entered, or to preserve the previously approved data.
 2. Adding a new node to an existing record or creating a new record and adding a node to it. In this case, the resource reviewer will decide to either approve the new node, adding it to the record as authoritative data, or decline your additions, deleting the node you created.
+^
+
 # Viewing Your edits
-Before approval, your provisional edits will only be visible to you and resource reviewers. To view any edits you have made and check their approval status, open the ![Recent edits tab]({{site.url}}/assets/images/recentEditsTab.PNG) "My Recent Edits" tab in the upper right.
+Before approval, your provisional edits will only be visible to you and resource reviewers. To view any edits you have made and check their approval status, open the "My Recent Edits" ![Recent edits tab]({{site.url}}/assets/images/recentEditsTab.PNG) tab in the upper right.
 
 ![Recent edits tab]({{site.url}}/assets/GIFs/makingProvEdits.gif)
 
@@ -33,7 +35,8 @@ To start reviewing provisional edits as a resource reviewer:
 2. Filter the results or lookup a record by name to find an edit to review
 3. Click the ![Edit button]({{site.url}}/assets/images/editButton.png) button for the record that has provisional edits you want to evaluate
 4. Now viewing the record, select a card that has provisional edits and is marked with a ![Yellow card icon]({{site.url}}/assets/images/yellowIcon.PNG)
-5. If changes were made to existing data, the ![Provisional Edits Menu]({{site.url}}/assets/images/provEditDisplay.PNG) menu will appear, and you can click on a users name to see their edits to the card or click on the card itself to view the most recently approved data for comparison
+5. If changes were made to existing data, the ![Provisional Edits Menu]({{site.url}}/assets/images/provEditsDisplay.PNG) menu will appear, and you can click on a users name to see their edits to the card or click on the card itself to view the most recently approved data for comparison
 6. Decide whether the edits should be added as authoritative data and then click either ![Save Edit button]({{site.url}}/assets/images/saveEditButton.PNG)
 at the bottom of the card to implement the changes or ![Red x]({{site.url}}/assets/images/redX.PNG) beside the user's name on the provisional edits menu to decline the changes and maintain the most recently approved data
 7. If the provisional edit is an altogether new record, no provisional edits menu will appear and after reviewing the new record you can either add it authoritatively to the resource by clicking ![Save Edit button]({{site.url}}/assets/images/saveEditButton.PNG) or remove it entirely by clicking ![Delete record button]({{site.url}}/assets/images/deleteRecordButton.PNG)
+^
