@@ -53,12 +53,3 @@ To save a Record:
 1. Click the ![Save Edit Button]({{site.url}}/assets/images/saveEditButton.PNG) Button  
 
 ^  
-# Approval Process
-Depending on what user groups you're in and what your project administrators have set your permissions to, your edits may show up as 'Provisional' when you first make them.  
-
-![Provisional Edit in Search]({{site.url}}/assets/images/provEdit.png)
-
-
-To maintain the integrity of a projects database, Arches has a built in quality assurance system that allows a set group of resource reviewers to examine provisional edits and then approve or decline them.  
-
-![Provisional Edit in Search]({{site.url}}/assets/images/provReview.png)
