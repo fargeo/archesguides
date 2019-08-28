@@ -40,14 +40,14 @@ There are many settings in the settings_local.py and settings.py files that shou
 ## Settings.py
 A number of important user settings, security settings, and directory settings are configured from this file. Most of these settings are applied through Django.
 ### Upload settings
-You can set the destination directory for uploaded files by changing the value of MEDIA_ROOT
+You can set the destination directory for uploaded files by changing the value of 'MEDIA_ROOT'
 ### Log settings
 Settings for both the regular and import logs are managed within settings.py. You can set the directory where the logs are kept and change the format of the log entries, along with other optional adjustments.
 The 'LEVEL:' fields control the verbosity of your terminal outputs, which can be set to four levels. From most to least verbose the options are: 'DEBUG', 'WARNING', 'ERROR', 'INFO'.
 
 ![Log Configuration]({{site.url}}/assets/images/loggingConfigurationAnnotated.png)
 ### Security settings
-The secret key used for production is stored here as SECRET_KEY and you can toggle django debugging on or off by changing the value of DEBUG
+The secret key used for production is stored here as SECRET_KEY and you can toggle Django debugging on or off by changing the value of DEBUG
 
 
 ![Security Configuration]({{site.url}}/assets/images/securitySettingsAnnotated.png)
@@ -56,7 +56,6 @@ The secret key used for production is stored here as SECRET_KEY and you can togg
 {: .notice--info}
 ### Host settings/permissions
 You can change the database host and set other host permissions as well as adjusting other PostGIS settings that were given their initial value during your installation of Arches.
-
 
 ![Host Configuration]({{site.url}}/assets/images/hostSettingsAnnotated.png)
 ### Cache settings
@@ -67,30 +66,30 @@ Near the bottom of your settings.py, you can set the location for your Tile and 
 ## settings_local.py
 This file contains some basic options for data presentation and access as well as a few user account settings. The settings_local.py file will override the settings.py file if there are any discrepancies in values between them.
 ### Time Formatting
-- **Time wheel**
+- **Time wheel:**
 To configure you timewheel with custom bin sizes, follow this [guide to Time wheel configuration](https://arches.readthedocs.io/en/stable/additional-configuration/#time-wheel-configuration)
-- **Time formats**
+- **Time formats:**
 You can adjust the default time format for importing and exporting data, which is '%Y-%m-%d'
 ^
 ### Dependencies and Database Management
-- **Default file location**
+- **Default file location:**
 The default location of user uploaded files is set through 'MEDIA_ROOT' and the max size of uploaded files is set through 'DATA_UPLOAD_MAX_MEMORY_SIZE'. For static files not uploaded by users, the default location is determined by 'STATIC_ROOT'.
-- **Database settings**
+- **Database settings:**
 Your default database is constructed under 'DATABASES', which requires differing parameters depending on which database backend you are using. You must define the engine and name the database, and some database backends will require additional user and host information.
-- **Elasticsearch parameters**
+- **Elasticsearch parameters:**
 Simple connection options and host settings for Elasticsearch can be set from here.
     - Changing the value of "timeout" will adjust how much latency will be tolerated before Elasticsearch times out a user
     - The values "host" and "port" allow you to set the name and address of your Elasticsearch instance for Arches to find and use
-- **Installed apps**
+- **Installed apps:**
 Under 'INSTALLED_APPS' are the python paths to all external applications that are installed in your Django instance and provide auxiliary features.
-- **Ontology Settings**
+- **Ontology Settings:**
 The name and location of the ontology to be used by your Reference Data Manager are set here. You can also add external packages to your Ontology by adding the names of the .xml files under 'ONTOLOGY_EXT'.
 ^
 ### Email/Account Configuration
-- **Default group**
+- **Default group:**
 Setting the value of 'USER_SIGNUP_GROUP' will adjust the default group that a newly created user is put into if another group is not specified.
-- **Password settings**
+- **Password settings:**
 Under 'AUTH_PASSWORD_VALIDATORS' are a number of different validators that control password requirements. You can add, remove, or adjust them to determine how strong of a password is required for users.
-- **Email settings**
+- **Email settings:**
 You can adjust 'EMAIL_HOST' and 'EMAIL_PORT' to control what Django uses for email correspondence when triggered by a custom function. 'EMAIL_HOST_USER' and 'EMAIL_HOST_PASSWORD' set the credentials for the SMTP server defined in 'EMAIL_HOST'. If left blank, Django will not attempt any authentication.
 ^
