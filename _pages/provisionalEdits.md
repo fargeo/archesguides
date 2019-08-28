@@ -33,6 +33,7 @@ To start reviewing provisional edits as a resource reviewer:
 2. Filter the results or lookup a record by name to find an edit to review
 3. Click the ![Edit button]({{site.url}}/assets/images/editButton.png) button for the record that has provisional edits you want to evaluate
 4. Now viewing the record, select a card that has provisional edits and is marked with a ![Yellow card icon]({{site.url}}/assets/images/yellowIcon.PNG)
-5. Using the ![Provisional Edits Menu]({{site.url}}/assets/images/provEditDisplay.PNG) menu, click on a users name to see their edits to the card or click on the card itself to view the most recently approved data for comparison
+5. If changes were made to existing data, the ![Provisional Edits Menu]({{site.url}}/assets/images/provEditDisplay.PNG) menu will appear, and you can click on a users name to see their edits to the card or click on the card itself to view the most recently approved data for comparison
 6. Decide whether the edits should be added as authoritative data and then click either ![Save Edit button]({{site.url}}/assets/images/saveEditButton.PNG)
-or ![Save Edit button]({{site.url}}/assets/images/cancelEditButton.PNG)
+at the bottom of the card to implement the changes or ![Red x]({{site.url}}/assets/images/redX.PNG) beside the user's name on the provisional edits menu to decline the changes and maintain the most recently approved data
+7. If the provisional edit is an altogether new record, no provisional edits menu will appear and after reviewing the new record you can either add it authoritatively to the resource by clicking ![Save Edit button]({{site.url}}/assets/images/saveEditButton.PNG) or remove it entirely by clicking ![Delete record button]({{site.url}}/assets/images/deleteRecordButton.PNG)
