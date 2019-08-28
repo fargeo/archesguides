@@ -27,7 +27,7 @@ Arches installs with a handful of pre-existing groups with permissions already s
 1. Set the permissions you want users added to this group to have access to by selecting them under 'Available Permissions' and using the arrows to move them into 'Chose Permissions'
 1. Click 'SAVE' in the bottom right, you can now add users to this group  
 
-<img src="/archesguides/assets/GIFs/groupCreate.gif" width = "2500" height = "1172"/>
+![Editing group permissions in the Django interface]({{site.url}}/assets/GIFs/groupCreate.gif)
 
 **To Edit an existing group:**
 1. Navigate to YourArchesHost/admin/
@@ -37,4 +37,4 @@ Arches installs with a handful of pre-existing groups with permissions already s
 1. Add any new permissions you want the group to have access to or remove any permissions you no longer want the group to have access too
 1. Click 'SAVE' in the bottom right to administer these changes to the group  
 
-![Editing group permissions in the Django interface]({{site.url}}/assets/GIFs/groupEdit.gif){: width=2500 height=1100 .full}
+![Editing group permissions in the Django interface]({{site.url}}/assets/GIFs/groupEdit.gif)
