@@ -22,7 +22,7 @@ user docs:
       - title: "Searching Arches"
         url: /user-docs/searching/
 
-  - title: Customization
+  - title: Records and Data Entry
     children:
       - title: "Creating a New Record"
         url: /user-docs/new-record/
