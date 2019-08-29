@@ -31,7 +31,7 @@ Searching by area allows you to sort results based on their geographical locatio
 
 To create an area filter:
 1. Select one of the draw options from the menu bar on the left side of the Map and set the buffer distance from the boundary in which you want results to be included ![Area menu]({{site.url}}/assets/images/areaMenu.PNG){: .align-right}
-  
+
 2. Click anywhere on the map to create your first point (markers only have one point)
 3. If you're drawing a polyline or polygon, click elsewhere on the map to create more connecting points and Arches will show your shape as you construct it
 4. Once you finished adding points, hit 'Enter' to finish the shape and your results will be filtered to only what falls within your drawing
@@ -48,5 +48,8 @@ Time filters require you to select the type of time range you want to sort by fr
 Advanced search gives you the power to select any data field from a particular resource model and filter your results through it. These advanced filters allow for more precise searching and can be layered similarly to regular filters.
 # Viewing Results
 Below the search bar Arches will display how many results your query yielded and below that the results will be shown on in list form. All of the results that show up on the first page of the list will also have a marker placed on the map.
+## Saved Searches
+Project administrators can save a combination of filters under saved searches that allows users to instantly replicate the desired query. From the search tab, click on ![Saved searches]({{site.url}}/assets/images/savedSearch.PNG) at the top of the map window to view any searches that have been saved for your project. Clicking on a saved search will apply the predetermined combination of filters and show the set of results.
+
 ## Selecting resources
 You can open a resource to view or edit it from the list view on the left or from the map on the right. Click on any map marker to bring up a window with options for that resource. To open the resource report, click the title of the record in the list or the ![report button]({{site.url}}/assets/images/reportButton.PNG) button on the resource window brought up on the map. To open the resource in the resource editor, click the ![Edit button]({{site.url}}/assets/images/editButton.png) on the resources entry in the list or on the resource window if using the map.
