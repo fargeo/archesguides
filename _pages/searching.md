@@ -31,6 +31,7 @@ Searching by area allows you to sort results based on their geographical locatio
 
 To create an area filter:
 1. Select one of the draw options from the menu bar on the left side of the Map and set the buffer distance from the boundary in which you want results to be included ![Area menu]({{site.url}}/assets/images/areaMenu.PNG){: .align-right}
+  
 2. Click anywhere on the map to create your first point (markers only have one point)
 3. If you're drawing a polyline or polygon, click elsewhere on the map to create more connecting points and Arches will show your shape as you construct it
 4. Once you finished adding points, hit 'Enter' to finish the shape and your results will be filtered to only what falls within your drawing

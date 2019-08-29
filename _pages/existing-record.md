@@ -23,5 +23,6 @@ You can also edit already entered data by going to the created card, editing the
 
 ![Editing existing data]({{site.url}}/assets/GIFs/recordEditEdit.gif)
 
+The ![Manage menu]({{site.url}}/assets/images/manageMenu.PNG) menu in the upper left hand corner of the resource editor has some convenient options when dealing with an existing record. From here you can view the resource report, print the resource report, review the resource's edit history, and even copy or delete the resource.
 # Copying a Record  
-An existing record can also be copied to make a new identical instance of the resource that can be edited. Open the resource you want to copy in the resource editor and click ![Manage menu]({{site.url}}/assets/images/manageMenu.PNG) in the upper left. From there, select 'Copy Resource' to create a duplicate of the record that you can find and open from search.
+An existing record can also be copied to make a new identical instance of the resource that can be edited. Open the resource you want to copy in the resource editor and click ![Manage menu]({{site.url}}/assets/images/manageMenu.PNG) in the upper left. From there, select 'Copy Resource' to create a duplicate of the record that you can find and open from search. If you need to create a new resource that shares most of its data with an already existing resource, this can be a very efficient way to start it.
