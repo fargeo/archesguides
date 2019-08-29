@@ -41,11 +41,12 @@ There are many settings in the settings_local.py and settings.py files that shou
 Most of the settings in this file are also in settings_local.py, and since settings_local.py overwrites settings.py, it is optimal to do most of your configuring from settings_local.py to keep it all in one place. If you want to make changes in settings.py that also appears in settings_local.py, you will have to comment out the block where the setting appears or your change will be overwritten. Making your changes in settings_local.py also allows you to update settings.py without losing any changes you make.
 
 ### Security settings
-**Secret Key:** The secret key used for production is stored here as 'SECRET_KEY'
+- **Secret Key:** The secret key used for production is stored here as 'SECRET_KEY'
 
 ![Security Configuration]({{site.url}}/assets/images/securitySettings.PNG)
-**OAUTH Settings:** After registering a new application, 'MOBILE_OAUTH_CLIENT_ID' must be set to the new client id generated. This is a necessary step for allowing others to connect to your Arches instance, such as Arches Collector users. For more information on API authenticationa and registering applications, visit our documentation [here](https://arches.readthedocs.io/en/stable/api/#authentication).
 
+- **OAUTH Settings:** After registering a new application, 'MOBILE_OAUTH_CLIENT_ID' must be set to the new client id generated. This is a necessary step for allowing others to connect to your Arches instance, such as Arches Collector users. For more information on API authentication and registering applications, visit our documentation [here](https://arches.readthedocs.io/en/stable/api/#authentication).
+^
 ## settings_local.py
 A number of important database settings, formatting settings, cache settings, log settings, and account settings are configured from this file. Any changes made in settings_local.py will overwrite the values in settings.py.
 ### Time Formatting
@@ -77,20 +78,20 @@ A number of important database settings, formatting settings, cache settings, lo
 - **Email settings:** You can adjust 'EMAIL_HOST' and 'EMAIL_PORT' to control what Django uses for email correspondence when triggered by a custom function. 'EMAIL_HOST_USER' and 'EMAIL_HOST_PASSWORD' set the credentials for the SMTP server defined in 'EMAIL_HOST'. If left blank, Django will not attempt any authentication.
 ^
 ### Cache settings
--**Cache seeding:** To control how your cache is seeded, adjust 'CACHE_SEED_BOUNDS' and 'CACHE_SEED_MAX_ZOOM' to set the levels at which your cache seeds.
+- **Cache seeding:** To control how your cache is seeded, adjust 'CACHE_SEED_BOUNDS' and 'CACHE_SEED_MAX_ZOOM' to set the levels at which your cache seeds.
 
--**Tileserver settings:** You can set the location of your tileserver cache under 'TILE_CACHE_CONFIG'.
+- **Tileserver settings:** You can set the location of your tileserver cache under 'TILE_CACHE_CONFIG'.
 
--**Timewheel Cache:** By adjusting 'CACHE_BY_USER' you can customize how often the Timewheel data is cached for specific users. You must first specify the usernames and then the duration (seconds) for which you want to cache the Timewheel. For example, it could look like 'CACHE_BY_USER = {'Resource Editor' : 3600}'
+- **Timewheel Cache:** By adjusting 'CACHE_BY_USER' you can customize how often the Timewheel data is cached for specific users. You must first specify the usernames and then the duration (seconds) for which you want to cache the Timewheel. For example, it could look like 'CACHE_BY_USER = {'Resource Editor' : 3600}'
 ^
 ![Cache Settings]({{site.url}}/assets/images/cacheSettings.png)
 
 ### Log settings
--**Log preffernces:** Under 'LOGGING' you can adjust 'format' to change the structure of the logs. The 'LEVEL:' fields control the verbosity of your terminal outputs, which can be set to four levels. From most to least verbose the options are: 'DEBUG', 'WARNING', 'ERROR', 'INFO'.
+- **Log preffernces:** Under 'LOGGING' you can adjust 'format' to change the structure of the logs. The 'LEVEL:' fields control the verbosity of your terminal outputs, which can be set to four levels. From most to least verbose the options are: 'DEBUG', 'WARNING', 'ERROR', 'INFO'.
 
--**Log Location:** The write location for the standard logs can be set under 'LOGGING' by setting the 'filename' variable to a writable location. To set the location of the resource import log, change the value of 'RESOURCE_IMPORT_LOG' to the desired writable location.
+- **Log Location:** The write location for the standard logs can be set under 'LOGGING' by setting the 'filename' variable to a writable location. To set the location of the resource import log, change the value of 'RESOURCE_IMPORT_LOG' to the desired writable location.
 
--**Debug:** You can toggle Django debugging on or off by changing the value of 'DEBUG'.
+- **Debug:** You can toggle Django debugging on or off by changing the value of 'DEBUG'.
 ^
 **Info:** Setting DEBUG to false will replace the more complex Django error messages with standard 404 and 500 error pages. It will also cause Django to stop serving static files, requiring you to set up an external webserver.
 {: .notice--info}
