@@ -41,12 +41,10 @@ There are many settings in the settings_local.py and settings.py files that shou
 Most of the settings in this file are also in settings_local.py, and since settings_local.py overwrites settings.py, it is optimal to do most of your configuring from settings_local.py to keep it all in one place. If you want to make changes in settings.py that also appears in settings_local.py, you will have to comment out the block where the setting appears or your change will be overwritten. Making your changes in settings_local.py also allows you to update settings.py without losing any changes you make.
 
 ### Security settings
-The secret key used for production is stored here as 'SECRET_KEY' and you can toggle Django debugging on or off by changing the value of DEBUG
+**Secret Key:** The secret key used for production is stored here as 'SECRET_KEY'
 
 ![Security Configuration]({{site.url}}/assets/images/securitySettings.PNG)
-
-**Info:** Setting DEBUG to false will replace the more complex Django error messages with standard 404 and 500 error pages. It will also cause Django to stop serving static files, requiring you to set up an external webserver.
-{: .notice--info}
+**OAUTH Settings:** After registering a new application, 'MOBILE_OAUTH_CLIENT_ID' must be set to the new client id generated. This is a necessary step for allowing others to connect to your Arches instance, such as Arches Collector users. For more information on API authenticationa and registering applications, visit our documentation [here](https://arches.readthedocs.io/en/stable/api/#authentication).
 
 ## settings_local.py
 A number of important database settings, formatting settings, cache settings, log settings, and account settings are configured from this file. Any changes made in settings_local.py will overwrite the values in settings.py.
@@ -56,7 +54,7 @@ A number of important database settings, formatting settings, cache settings, lo
 - **Time formats:** You can adjust the default time format for importing and exporting data by adjusting the value of 'DATE_IMPORT_EXPORT_FORMAT', which has the default '%Y-%m-%d' set initially.
 ^
 ### Dependencies and Database Management
-- **Default file location:** The default location of user uploaded files is set through 'MEDIA_ROOT' and the max size of uploaded files is set through 'DATA_UPLOAD_MAX_MEMORY_SIZE'. For static files not uploaded by users, the default location is determined by 'STATIC_ROOT'.
+- **Default file location:** The default location of user uploaded files is set through 'MEDIA_ROOT' and the max size of uploaded files is set through 'DATA_UPLOAD_MAX_MEMORY_SIZE' in bytes. For static files not uploaded by users, the default location is determined by 'STATIC_ROOT'.
 
 - **Database settings:** Your default database is constructed under 'DATABASES', which requires differing parameters depending on which database backend you are using. You must define the engine and name the database, and some database backends will require additional user and host information.
 ![Database settings]({{site.url}}/assets/images/databaseSettings.PNG)
@@ -91,5 +89,10 @@ A number of important database settings, formatting settings, cache settings, lo
 -**Log preffernces:** Under 'LOGGING' you can adjust 'format' to change the structure of the logs. The 'LEVEL:' fields control the verbosity of your terminal outputs, which can be set to four levels. From most to least verbose the options are: 'DEBUG', 'WARNING', 'ERROR', 'INFO'.
 
 -**Log Location:** The write location for the standard logs can be set under 'LOGGING' by setting the 'filename' variable to a writable location. To set the location of the resource import log, change the value of 'RESOURCE_IMPORT_LOG' to the desired writable location.
+
+-**Debug:** You can toggle Django debugging on or off by changing the value of 'DEBUG'.
 ^
+**Info:** Setting DEBUG to false will replace the more complex Django error messages with standard 404 and 500 error pages. It will also cause Django to stop serving static files, requiring you to set up an external webserver.
+{: .notice--info}
+
 ![Log Configuration]({{site.url}}/assets/images/logSettings.PNG)
