@@ -11,7 +11,7 @@ defaults:
     values:
       author_profile: false
 ---
-Model configuration is done from the Arches designer tab. If you loaded a package into your Arches instance, you probably already have a handful of resource models that can be viewed and edited from here. To add a new resource model to this list, simply select 'New Resource Model' from the Add button in the upper right.  
+Model configuration is done from the Arches designer tab. If you loaded a package into your Arches instance, you probably already have a handful of resource models that can be viewed and edited from here. To add a new resource model to this list, simply select 'New Resource Model' from the ![Add button]({{site.url}}/assets/images/blueAddButton.PNG) button in the upper right.  
 
 ![Creating a new resource model]({{site.url}}/assets/GIFs/modelCreate.gif){: .align_right}  
 

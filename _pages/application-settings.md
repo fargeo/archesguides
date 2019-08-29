@@ -12,6 +12,7 @@ defaults:
       author_profile: false
 ---
 You can customize the application settings of your project to create an ideal environment for your users. There are some basic system data and search settings that can be configured for your project's users in the System Settings tab of the Arches UI.
+  
 **From System Data Settings you can:**
 - Change the default application name, which is displayed in the browser title bar and identifies the application in other locations
 - Enter a key for Google web analytics if you plan to track the traffic to your Arches Application
