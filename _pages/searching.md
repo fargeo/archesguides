@@ -30,7 +30,7 @@ Searching by concept functions like a typical search bar for all of the concepts
 Searching by area allows you to sort results based on their geographical location. You can create an area around a point, line, or polygon.
 
 To create an area filter:
-1. Select one of the draw options from the ![Area menu]({{site.url}}/assets/images/areaMenu.PNG) on the left side of the Map and set the buffer distance from the boundary in which you want results to be included
+1. Select one of the draw options from the menu bar on the left side of the Map and set the buffer distance from the boundary in which you want results to be included ![Area menu]({{site.url}}/assets/images/areaMenu.PNG){: .align-right}
 2. Click anywhere on the map to create your first point (markers only have one point)
 3. If you're drawing a polyline or polygon, click elsewhere on the map to create more connecting points and Arches will show your shape as you construct it
 4. Once you finished adding points, hit 'Enter' to finish the shape and your results will be filtered to only what falls within your drawing
