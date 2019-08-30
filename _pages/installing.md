@@ -17,4 +17,4 @@ Arches requires a number of external software dependencies to function properly 
 Much of the installation process is system specific, so make sure you are following the proper section of the guide for your operating system.
 {: .notice--info}
 
- Once you have all the required software installed, follow the [Arches Installation Guide](https://www.archesproject.org/documentation/) for step by step instructions for installing Arches itself.
+ Once you have all of the required software installed, follow the [Arches Installation Guide](https://www.archesproject.org/documentation/) for step by step instructions for installing Arches itself.

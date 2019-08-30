@@ -30,8 +30,8 @@ Under 'Default Map Settings' you can:
 # Hexbin
 Arches can group search results and display them as hexagonal bins using an overlay, but it requires some configuring ahead of time for it to be effective for your project. There are two key hexbin settings located with the other default map settings under 'Search Results Grid':
 
-**Hexagon Size** changes the size of the hexagons that will appear on the map. Making your hexagons smaller will give a more detailed view of resource density while larger hexagons will provide a simpler and more general picture.
-* **Hexagon Grid Precision** determines how precisely records are sorted into each bin. A higher integer will cause records to be sorted into the correct bin more frequently, but at a cost to performance.
+- **Hexagon Size** changes the size of the hexagons that will appear on the map. Making your hexagons smaller will give a more detailed view of resource density while larger hexagons will provide a simpler and more general picture.
+- **Hexagon Grid Precision** determines how precisely records are sorted into each bin. A higher integer will cause records to be sorted into the correct bin more frequently, but at a cost to performance.
 
 **Warning:** A large project area combined with a small hexagon size and/or high precision will take a very long time to load, and can crash your browser. We suggest changing these settings in small increments to find the best combination for your project.
 {: .notice--warning}
@@ -46,7 +46,7 @@ Most of the settings in this file are also in settings_local.py, and since setti
 - **Secret Key:** The secret key used for production is stored here as 'SECRET_KEY'
 
 ![Security Configuration]({{site.url}}/assets/images/securitySettings.PNG)
-  
+
 - **OAUTH Settings:** After registering a new application, 'MOBILE_OAUTH_CLIENT_ID' must be set to the new client id generated. This is a necessary step for allowing others to connect to your Arches instance, such as Arches Collector users. For more information on API authentication and registering applications, visit our documentation [here](https://arches.readthedocs.io/en/stable/api/#authentication).
 ^
 ## settings_local.py
@@ -75,7 +75,7 @@ A number of important database settings, formatting settings, cache settings, lo
 ### Email/Account Configuration
 - **Default group:** Setting the value of 'USER_SIGNUP_GROUP' will adjust the default group that a newly created user is put into if another group is not specified.
 
--**Postgre User:** You can set 'PG_SUPERUSER' and 'PG_SUPERUSER_PW' to define the credentials for a Postgre superuser within your database. Database superusers bypass all permission checks and have access to the underlying structure of the database, so it's best to limit Superusers to only highly trusted users.
+- **Postgre User:** You can set 'PG_SUPERUSER' and 'PG_SUPERUSER_PW' to define the credentials for a Postgre superuser within your database. Database superusers bypass all permission checks and have access to the underlying structure of the database, so it's best to limit Superusers to only highly trusted users.
 
 - **Password settings:** Under 'AUTH_PASSWORD_VALIDATORS' are a number of different validators that control password requirements. You can add, remove, or adjust them to determine how strong of a password is required for users.
 
