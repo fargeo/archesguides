@@ -16,7 +16,7 @@ defaults:
       author_profile: false
 ---
 
-To create a new record, go to the "Add New Resource" ![New Resource Tab]({{site.url}}/assets/images/newResourceTab.PNG) tab and select the resource model that best fits for the record you want to create.  
+To create a new record, go to the 'Add New Resource' ![New Resource Tab]({{site.url}}/assets/images/newResourceTab.PNG) tab and select the resource model that best fits for the record you want to create.  
 
 ![Create Record]({{site.url}}/assets/images/newRecordAnnotated.png)
 The resource model you choose will determine the starting structure of your  record.
@@ -35,7 +35,7 @@ Cards are defined by semantic nodes that hold no data, but serve as a heading or
 
 On this example taken from a card tree you can see:
 - The semantic node 'Asset Descriptions' that forms a card
-- Four data containing nodes that are children of the 'Asset Descriptions' node and have data entry fields on its card  
+- Four data containing nodes that are children of the 'Asset Descriptions' node and have data entry fields on the 'Asset Descriptions' card  
 
 ^  
 ### Adding a Record
@@ -49,7 +49,7 @@ To add a record:
 To save a Record:
 1. Select any already created card that has data you want to edit or that you want to add new data to
 1. Change any information that needs editing and fill out any of the empty fields you wish to add data for
-1. Click the ![Save Edit Button]({{site.url}}/assets/images/saveEditButton.PNG) Button  
+1. Click the ![Save Edit Button]({{site.url}}/assets/images/saveEditButton.PNG) button  
 
 ^  
 
