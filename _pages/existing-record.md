@@ -15,7 +15,7 @@ Existing records can be opened from the search tab to be viewed and edited. You 
 
 ![Opening record editor]({{site.url}}/assets/images/editRecordAnnotated.png)
 
-The card tree of whichever record you choose to edit will be shown on the left, similarly to when you are creating a new record. You can navigate to any blank card and enter new data by clicking add the same as you would when creating a new record.  
+The card tree of whichever record you choose to edit will be shown on the left, similarly to when you are creating a new record. You can navigate to any blank card and enter new data by clicking ![Add]({{site.url}}/assets/images/addButton.PNG) the same as you would when creating a new record.  
 
 ![Add data to a record]({{site.url}}/assets/GIFs/recordEditAdd.gif)
 

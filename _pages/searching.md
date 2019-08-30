@@ -19,7 +19,7 @@ The search tab in Arches is used to find and select resource models from your pr
 
 ![Search Results]({{site.url}}/assets/images/searchResultsAnnotated.png)
 # Filtering
-There are multiple parameters you can choose to filter your search results by. Multiple filters can be layered together to further narrow your results and all of the currently applied filters will be displayed in the search field. These filters can be inverted to exclude the queried field by clicking the colored box or removed independently by clicking the 'x' inside each filters colored box.  
+There are multiple parameters you can choose to filter your search results by. Multiple filters can be layered together to further narrow your results and all of the currently applied filters will be displayed in the search field. These filters can be inverted to exclude the queried field by clicking the colored box or removed independently by clicking the ![X]({{site.url}}/assets/images/deleteX.PNG) inside each filters colored box.  
 
 ![Search Filtering]({{site.url}}/assets/images/searchFilteringAnnotated.png)
 ## By concept
@@ -39,7 +39,7 @@ To create an area filter:
 
 ![Search by Area Line]({{site.url}}/assets/GIFs/searchByLine.gif)
 ## By time
-Time filters require you to select the type of time range you want to sort by from the appropriate resource model you're searching for. You can either enter a range in the time filter or select one from the time wheel.  
+The ![Time filter]({{site.url}}/assets/images/timeFilter.PNG) interface under the ![Time tab]({{site.url}}/assets/images/timeTab.PNG) tab requires you to select the type of time range you want from the appropriate resource model you're searching for before entering a date range. Alternatively, you can select the ![Area menu]({{site.url}}/assets/images/timeWheel.PNG) interface also under the ![Time tab]({{site.url}}/assets/images/timeTab.PNG) tab and choose a date range from there.
 
 ![Search by Time Filter]({{site.url}}/assets/GIFs/searchByTimeFilter.gif)  
 
@@ -47,9 +47,9 @@ Time filters require you to select the type of time range you want to sort by fr
 ## Advanced Search
 Advanced search gives you the power to select any data field from a particular resource model and filter your results through it. These advanced filters allow for more precise searching and can be layered similarly to regular filters.
 # Viewing Results
-Below the search bar Arches will display how many results your query yielded and below that the results will be shown on in list form. All of the results that show up on the first page of the list will also have a marker placed on the map.
+Below the search bar Arches will display how many results your query yielded and below that the results will be shown on in list form. All of the results that show up on the first page of the list will also have a marker placed on the map. For the listed results, you can jump to a record's geographical location by clicking ![Map]({{site.url}}/assets/images/recordMap.PNG) at the bottom of the record preview for each result.
 ## Saved Searches
 Project administrators can save a combination of filters under saved searches that allows users to instantly replicate the desired query. From the search tab, click on ![Saved searches]({{site.url}}/assets/images/savedSearch.PNG) at the top of the map window to view any searches that have been saved for your project. Clicking on a saved search will apply the predetermined combination of filters and show the set of results.
 
 ## Selecting resources
-You can open a resource to view or edit it from the list view on the left or from the map on the right. Click on any map marker to bring up a window with options for that resource. To open the resource report, click the title of the record in the list or the ![report button]({{site.url}}/assets/images/reportButton.PNG) button on the resource window brought up on the map. To open the resource in the resource editor, click the ![Edit button]({{site.url}}/assets/images/editButton.png) on the resources entry in the list or on the resource window if using the map.
+You can open a resource to view or edit it from the list view on the left or from the map on the right. Click on any map marker to bring up a window with options for that resource. To open the resource report, click the title of the record in the list or the ![report button]({{site.url}}/assets/images/reportButton.PNG) button on the resource window brought up on the map. To open the resource in the resource editor, click ![Edit]({{site.url}}/assets/images/editButton.png) on the resources entry in the list or on the resource window if using the map.

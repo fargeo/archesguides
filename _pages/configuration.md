@@ -15,19 +15,21 @@ defaults:
     values:
       author_profile: false
 ---  
-System settings within Arches are stored in a special settings resource model that is part of your project's database. Settings are displayed in a card tree and are adjusted in a similar fashion to typical records. You can select any card to make changes and then select "save edit" to implement these settings adjustments.
+System settings within Arches are stored in a special settings resource model that is part of your project's database. Settings are displayed in a card tree and are adjusted in a similar fashion to typical records. You can select any card to make changes and then select ![Save Edit Button]({{site.url}}/assets/images/saveEditButton.PNG) to implement these settings adjustments.
+In addition to the settings you control from within the Arches interface, there are some settings that you access from your Arches directory. The settings.py and settings_local.py files in particular are located in your project folder and are edited outside of the Arches interface using a text editor.
 # Map settings
 
 Under 'Default Map Settings' you can:
 * Set your MapBox API key (you will need to enter one of these for the Arches map to function).
 * Change the geographical area of your project, which determines the bounds of the search function and the extent your hexagon bins will cover.
 
-**Info:** Upon navigating to the search page, the map will automatically zoom to your project extent that you set here.
+**Info:** Upon navigating to the search page, the map will automatically zoom to the project extent that you set here.
 {: .notice--info}
 * Set the default, maximum, and minimum zoom values to control the initial zoom level as well as the amount users are allowed to zoom in or out. These should be three integers between zero and twenty with  Min Zoom <= Default Zoom <= Max Zoom.
 
 # Hexbin
-Arches can group search results and display them as hexagonal bins using an overlay, but you have to do some configuring ahead of time for it to be effective for your project. There are two key hexbin settings located with the other default map settings under 'Search Results Grid':
+Arches can group search results and display them as hexagonal bins using an overlay, but it requires some configuring ahead of time for it to be effective for your project. There are two key hexbin settings located with the other default map settings under 'Search Results Grid':
+
 **Hexagon Size** changes the size of the hexagons that will appear on the map. Making your hexagons smaller will give a more detailed view of resource density while larger hexagons will provide a simpler and more general picture.
 * **Hexagon Grid Precision** determines how precisely records are sorted into each bin. A higher integer will cause records to be sorted into the correct bin more frequently, but at a cost to performance.
 
@@ -44,7 +46,7 @@ Most of the settings in this file are also in settings_local.py, and since setti
 - **Secret Key:** The secret key used for production is stored here as 'SECRET_KEY'
 
 ![Security Configuration]({{site.url}}/assets/images/securitySettings.PNG)
-
+  
 - **OAUTH Settings:** After registering a new application, 'MOBILE_OAUTH_CLIENT_ID' must be set to the new client id generated. This is a necessary step for allowing others to connect to your Arches instance, such as Arches Collector users. For more information on API authentication and registering applications, visit our documentation [here](https://arches.readthedocs.io/en/stable/api/#authentication).
 ^
 ## settings_local.py
@@ -72,6 +74,8 @@ A number of important database settings, formatting settings, cache settings, lo
 ^
 ### Email/Account Configuration
 - **Default group:** Setting the value of 'USER_SIGNUP_GROUP' will adjust the default group that a newly created user is put into if another group is not specified.
+
+-**Postgre User:** You can set 'PG_SUPERUSER' and 'PG_SUPERUSER_PW' to define the credentials for a Postgre superuser within your database. Database superusers bypass all permission checks and have access to the underlying structure of the database, so it's best to limit Superusers to only highly trusted users.
 
 - **Password settings:** Under 'AUTH_PASSWORD_VALIDATORS' are a number of different validators that control password requirements. You can add, remove, or adjust them to determine how strong of a password is required for users.
 
